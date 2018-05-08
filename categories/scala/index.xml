@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scala on Bartosz Lepa</title>
+    <link>https://blepa.github.io/categories/scala/</link>
+    <description>Recent content in Scala on Bartosz Lepa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 1018, Bartosz Lepa; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 06 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blepa.github.io/categories/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SBT Project Directory structure</title>
+      <link>https://blepa.github.io/post/note/20180506_scala_sbt_project_structure/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blepa.github.io/post/note/20180506_scala_sbt_project_structure/</guid>
+      <description>Default Scala project directories structure for stb and Maven.
+Project structure Template  build.sbt (plugins and additional settings for sbt) ▾ project/ (plugins and additional settings for sbt) ▾ src/ (source files) ▾ main/ (application code) ▾ resources/ (files to include in main jar here) ▾ scala (main Scala sources) ▾ java (main Java sources) ▾ test/ ▾ resources/ (files to include in test jar here) ▾ scala (test Scala sources) ▾ java (test Java sources)  build.</description>
+    </item>
+    
+  </channel>
+</rss>
