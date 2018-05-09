@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vcode on Bartosz Lepa</title>
+    <link>https://blepa.github.io/tags/vcode/</link>
+    <description>Recent content in Vcode on Bartosz Lepa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 1018, Bartosz Lepa; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blepa.github.io/tags/vcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Code cheatsheet</title>
+      <link>https://blepa.github.io/post/note/20180509_vcode_cheatsheet/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blepa.github.io/post/note/20180509_vcode_cheatsheet/</guid>
+      <description> OPENING AND CLOSING SIDEBAR ctrl + b  JUMP TO FILE EXPLORER ctrl + shift + e  GO TO FILE ctrl + p  JUMP TO TERMINAL ctrl + j  </description>
+    </item>
+    
+  </channel>
+</rss>
