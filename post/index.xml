@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Bartosz Lepa</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright (c) 1018, Bartosz Lepa; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blepa.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SBT Proxy configuration problem</title>
+      <link>https://blepa.github.io/post/note/20180510_sbt_proxy_configuration_problem/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blepa.github.io/post/note/20180510_sbt_proxy_configuration_problem/</guid>
+      <description> This soultion fixed &amp;ldquo;Server access Error&amp;rdquo; of sbt.
+Server access error Create repositories file in ~/.stb with content below.
+[scala] version: ${sbt.scala.version-auto} [app] org: ${sbt.organization-org.scala-sbt} name: sbt version: ${sbt.version-read(sbt.version)[0.13.5]} class: ${sbt.main.class-sbt.xMain} components: xsbti,extra cross-versioned: ${sbt.cross.versioned-false} [repositories] local sbt-releases-repo: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext] sbt-plugins-repo: http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext] maven-central: http://repo1.maven.org/maven2/ [boot] directory: ${sbt.boot.directory-${sbt.global.base-${user.home}/.sbt}/boot/} [ivy] ivy-home: ${sbt.ivy.home-${user.home}/.ivy2/} checksums: ${sbt.checksums-sha1,md5} override-build-repos: ${sbt.override.build.repos-false} repository-config: ${sbt.repository.config-${sbt.global.base-${user.home}/.sbt}/repositories}  </description>
+    </item>
     
     <item>
       <title>Visual Code cheatsheet</title>
