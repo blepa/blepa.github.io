@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Gitignore</title>
+      <link>https://blepa.github.io/tags/gitignore/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blepa.github.io/tags/gitignore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Maven</title>
       <link>https://blepa.github.io/tags/maven/</link>
       <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
@@ -32,7 +41,7 @@
     <item>
       <title>Sbt</title>
       <link>https://blepa.github.io/tags/sbt/</link>
-      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blepa.github.io/tags/sbt/</guid>
       <description></description>

@@ -2,7 +2,7 @@
 <html lang="">
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <title>Sbt </title>
+ <title>Gitignore </title>
 
 
 
@@ -19,8 +19,8 @@
 <link rel="shortcut icon" href="https://blepa.github.io/img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="https://blepa.github.io/img/favicon.ico" type="image/x-icon">
 
-<link href="https://blepa.github.io/tags/sbt/index.xml" rel="alternate" type="application/rss+xml" title="Bartosz Lepa" />
-<link href="https://blepa.github.io/tags/sbt/index.xml" rel="feed" type="application/rss+xml" title="Bartosz Lepa" />
+<link href="https://blepa.github.io/tags/gitignore/index.xml" rel="alternate" type="application/rss+xml" title="Bartosz Lepa" />
+<link href="https://blepa.github.io/tags/gitignore/index.xml" rel="feed" type="application/rss+xml" title="Bartosz Lepa" />
 
 
 </head>
@@ -107,7 +107,7 @@
       <div id="main" class="main" role="main">
 
     <div class="archive-header">
-	<h1>Tag: Sbt</h1>
+	<h1>Tag: Gitignore</h1>
 </div>
 
 <h1 class="screen-reader-text">Posts</h1>
@@ -145,81 +145,6 @@
 .gitignore # sbt bin/ project/ target/ build/ # other .history .scala_dependencies .cache .cache-main #general *.class  
 
 									<div class="more-link-wrapper"><a class="more-link" href="https://blepa.github.io/post/note/20180714_gitignore_scala_sbt/">Read the post<span class="screen-reader-text">This is a Standard Post</span></a></div>
-								</article>
-							</div>
-						</div>
-					</div>
-					
-	
-
-			<div class="post type-post status-publish format-standard hentry category-standard category-travel excerpt zoom full-without-featured odd excerpt">
-
-				
-
-				
-
-				<div class="excerpt-container">
-					<div class="excerpt-meta">
-						<span class="date">2018-05-10</span>	<span> / </span>
-
-						
-
-						 
-							<span> / </span>
-						<span class="category">
-							<a href="https://blepa.github.io/categories/Scala">Scala</a>
-						</span>
-						
-					</div>
-							<div class='excerpt-header'>
-								<h2 class='excerpt-title'>
-									<a href="https://blepa.github.io/post/note/20180510_sbt_proxy_configuration_problem/ "> SBT Proxy configuration problem </a>
-								</h2>
-							</div>
-							<div class='excerpt-content'>
-								<article>
-									 This soultion fixed &ldquo;Server access Error&rdquo; of sbt.
-Server access error Create repositories file in ~/.stb with content below.
-[scala] version: ${sbt.scala.version-auto} [app] org: ${sbt.organization-org.scala-sbt} name: sbt version: ${sbt.version-read(sbt.version)[0.13.5]} class: ${sbt.main.class-sbt.xMain} components: xsbti,extra cross-versioned: ${sbt.cross.versioned-false} [repositories] local sbt-releases-repo: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext] sbt-plugins-repo: http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext] maven-central: http://repo1.maven.org/maven2/ [boot] directory: ${sbt.boot.directory-${sbt.global.base-${user.home}/.sbt}/boot/} [ivy] ivy-home: ${sbt.ivy.home-${user.home}/.ivy2/} checksums: ${sbt.checksums-sha1,md5} override-build-repos: ${sbt.override.build.repos-false} repository-config: ${sbt.repository.config-${sbt.global.base-${user.home}/.sbt}/repositories}  
-
-									<div class="more-link-wrapper"><a class="more-link" href="https://blepa.github.io/post/note/20180510_sbt_proxy_configuration_problem/">Read the post<span class="screen-reader-text">This is a Standard Post</span></a></div>
-								</article>
-							</div>
-						</div>
-					</div>
-					
-	
-
-			<div class="post type-post status-publish format-standard hentry category-standard category-travel excerpt zoom full-without-featured odd excerpt">
-
-				
-
-				
-
-				<div class="excerpt-container">
-					<div class="excerpt-meta">
-						<span class="date">2018-05-06</span>	<span> / </span>
-
-						
-
-						 
-							<span> / </span>
-						<span class="category">
-							<a href="https://blepa.github.io/categories/Scala">Scala</a>
-						</span>
-						
-					</div>
-							<div class='excerpt-header'>
-								<h2 class='excerpt-title'>
-									<a href="https://blepa.github.io/post/note/20180506_scala_sbt_project_structure/ "> SBT Project Directory structure </a>
-								</h2>
-							</div>
-							<div class='excerpt-content'>
-								<article>
-									Default Scala project directories structure for stb and Maven.
-Project structure Template  build.sbt (plugins and additional settings for sbt) ▾ project/ (plugins and additional settings for sbt) ▾ src/ (source files) ▾ main/ (application code) ▾ resources/ (files to include in main jar here) ▾ scala (main Scala sources) ▾ java (main Java sources) ▾ test/ ▾ resources/ (files to include in test jar here) ▾ scala (test Scala sources) ▾ java (test Java sources)  build.
-
-									<div class="more-link-wrapper"><a class="more-link" href="https://blepa.github.io/post/note/20180506_scala_sbt_project_structure/">Read the post<span class="screen-reader-text">This is a Standard Post</span></a></div>
 								</article>
 							</div>
 						</div>

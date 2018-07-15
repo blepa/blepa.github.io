@@ -2,7 +2,7 @@
 <html lang="">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <title>SBT Project Directory structure </title>
+ <title>.gitignore file for scala and sbt  </title>
 
 
 
@@ -113,7 +113,7 @@
 
         
         <div class="entry-meta">
-          <span class="date">2018-05-06</span>	<span> / </span>
+          <span class="date">2018-07-14</span>	<span> / </span>
 
           <span class="author">
             
@@ -133,74 +133,31 @@
 
         </div>
         <div class='entry-header'>
-          <h1 class='entry-title'> SBT Project Directory structure</h1>
+          <h1 class='entry-title'> .gitignore file for scala and sbt </h1>
         </div>
         <div class="entry-container">
           <div class="entry-content">
             <article>
               
 
-<p>Default Scala project directories structure for stb and Maven.</p>
+<p>Simple .gitignore file for scala and sbt</p>
 
-<h2 id="project-structure">Project structure</h2>
+<h2 id="gitignore">.gitignore</h2>
 
-<h3 id="template">Template</h3>
-
-<pre><code> build.sbt 
-  (plugins and additional settings for sbt)
-▾ project/
-  (plugins and additional settings for sbt)            
-▾ src/
-  (source files)
-    ▾ main/
-      (application code)
-        ▾ resources/
-          (files to include in main jar here)
-        ▾ scala
-          (main Scala sources)
-        ▾ java
-          (main Java sources)
-    ▾ test/
-        ▾ resources/
-          (files to include in test jar here)
-        ▾ scala
-          (test Scala sources)
-        ▾ java
-          (test Java sources)
-</code></pre>
-
-<h3 id="build-sbt">build.sbt</h3>
-
-<pre><code>name := &quot;project-name&quot;
-version := &quot;1.0&quot; 
-scalaVersion := &quot;2.11.7&quot;
-</code></pre>
-
-<p>Check scala version: scala -version</p>
-
-<h3 id="gitignore">.gitignore</h3>
-
-<pre><code>dist/*
+<pre><code># sbt
+bin/
+project/
 target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+build/
+
+# other
 .history
+.scala_dependencies
 .cache
-.lib/
-</code></pre>
+.cache-main
 
-<h3 id="create-structure-with-a-shell-script">Create structure with a shell script</h3>
-
-<pre><code>#!/bin/sh
-mkdir -p src/{main,test}/{java,resources,scala}
-mkdir lib project target
-
-# create an initial build.sbt file
-echo 'name := &quot;MyProject&quot;
-version := &quot;1.0&quot;
-scalaVersion := &quot;2.10.0&quot;' &gt; build.sbt
+#general
+*.class
 </code></pre>
 
             </article>
